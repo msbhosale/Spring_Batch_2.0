@@ -1,0 +1,13 @@
+package in.happycoding.test;
+
+import in.happycoding.model.HardDisc;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		
+		HardDisc hdd = new HardDisc();
+		hdd.setCompany("WD");
+		hdd.setCapacity("256 GB");
+	}
+}

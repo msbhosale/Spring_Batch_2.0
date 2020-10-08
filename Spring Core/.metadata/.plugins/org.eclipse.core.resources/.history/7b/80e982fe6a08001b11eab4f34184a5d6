@@ -1,0 +1,19 @@
+package in.happycoding.test;
+
+import in.happycoding.model.HardDisc;
+import in.happycoding.model.Laptop;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Laptop laptop = new Laptop();
+		
+		laptop.setName("DELL");
+		
+		
+		laptop.start();
+	}
+}

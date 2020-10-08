@@ -1,0 +1,20 @@
+package in.happycoding.test;
+
+import in.happycoding.model.HardDisc;
+import in.happycoding.model.Laptop;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		
+		HardDisc hdd = new HardDisc();
+		
+		hdd.setCompany("WD");
+		hdd.setCapacity("256 GB");
+		
+		Laptop laptop = new Laptop();
+		
+		laptop.setName("DELL");
+		laptop.setDisc(hdd);
+	}
+}
